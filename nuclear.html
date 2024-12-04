@@ -3,57 +3,21 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>ExploreLikeALocal - Local Tourism Guide</title>
+    <title>Nuclear Energy - Powering the Future</title>
     <link id="light theme" rel="stylesheet" href="landing.css">
     <link id="dark theme" rel="stylesheet" href="landingdark.css" disabled>
 </head>
 <body>
     <script src="theme.js"></script>
-    <!-- Auth Modal -->
-    <div id="authModal" class="modal">
-        <div class="modal-content">
-            <span class="close">&times;</span>
-            <!-- Login Form -->
-            <form id="loginForm" class="auth-form" action="/login" method="post">
-                <h2>Login</h2>
-                <label for="loginEmail">Email:</label>
-                <input type="email" id="loginEmail" name="email" placeholder="Email" required>
-                <label for="loginPassword">Password:</label>
-                <input type="password" id="loginPassword" name="password" placeholder="Password" required>
-                <button type="submit" class="btn-primary">Login</button>
-                <p>Don't have an account? <a href="#" id="showSignup">Sign up</a></p>
-            </form>
-            <!-- Signup Form -->
-            <form id="signupForm" class="auth-form hidden" action="/signup" method="post">
-                <h2>Sign Up</h2>
-                <label for="fullName">Full Name:</label>
-                <input type="text" id="fullName" name="name" placeholder="Full Name" required>
-                
-                <label for="signupEmail">Email:</label>
-                <input type="email" id="signupEmail" name="email" placeholder="Email" required>
-                
-                <label for="signupPassword">Password:</label>
-                <input type="password" id="signupPassword" name="password" placeholder="Password" required>
-                
-                <button type="submit" class="btn-primary">Sign Up</button>
-                
-                <p>Already have an account? <a href="#" id="showLogin">Login</a></p>
-            </form>
-        </div>
-    </div>
-
-    <!-- Main Content -->
     <header class="hero">
         <nav>
-            <div class="logo">ExploreLikeALocal</div>
+            <div class="logo">GlamGreen - Nuclear Energy</div>
             <div class="nav-links">
-                <a href="#nearby" class="btn-primary rainbow-border">Nearby</a>
-                <a href="#preferences" class="btn-primary rainbow-border">Preferences</a>
-                <a href="#saved" class="btn-primary rainbow-border">Saved Places</a>
-                <button id="authBtn" class="btn-primary rainbow-border">Login</button>
+                <a href="#benefits" class="btn-primary rainbow-border">Benefits</a>
+                <a href="#applications" class="btn-primary rainbow-border">Applications</a>
+                <a href="index.html" class="btn-primary rainbow-border">Home</a>
                 <a href="about.html" class="btn-primary rainbow-border">About Us</a>
             </div>
-            
         </nav>
         <section class="landing">
             <video autoplay muted loop class="bg-video">
@@ -61,52 +25,48 @@
                 Your browser does not support the video tag.
             </video>
         </section>
-        
     </header>
-
-    
-
-    <section id="nearby" class="destinations">
-        <h2>Spots Near You</h2>
+    <section id="benefits" class="destinations">
+        <h2>Why Choose Nuclear?</h2>
         <div class="destination-grid">
-            <div class="destination-card" style="background-image: url('https://images.unsplash.com/photo-1533587851505-d119e13fa0d7')">
+            <div class="destination-card" style="background-image: url('https://images.unsplash.com/photo-1701773493349-9439be159609?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Nnx8bnVjbGVhciUyMGVuZXJneXxlbnwwfHwwfHx8MA%3D%3D')">
                 <div class="card-content">
-                    <h3>Mountain Trail</h3>
-                    <p>2.5 km away • Hiking • Nature</p>
+                    <h3>High Energy Density</h3>
+                    <p>Nuclear energy produces massive amounts of power from small fuel amounts.</p>
                 </div>
             </div>
-            <div class="destination-card" style="background-image: url('https://images.unsplash.com/photo-1514933651103-005eec06c04b')">
+            <div class="destination-card" style="background-image: url('https://plus.unsplash.com/premium_photo-1676747208293-2c2fe2951469?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D')">
                 <div class="card-content">
-                    <h3>Local Art Gallery</h3>
-                    <p>1.2 km away • Culture • Indoor</p>
+                    <h3>Low Greenhouse Gas Emissions</h3>
+                    <p>Significantly reduces carbon footprint compared to fossil fuels.</p>
                 </div>
             </div>
-            <div class="destination-card" style="background-image: url('https://images.unsplash.com/photo-1555396273-367ea4eb4db5')">
+            <div class="destination-card" style="background-image: url('https://img.freepik.com/free-vector/green-energy-sun_78370-6778.jpg?t=st=1733335070~exp=1733338670~hmac=51f5e76d8578cd3a90e08a800737a5c7f890dceaa6a688030bc30e3dbbd8d345&w=740')">
                 <div class="card-content">
-                    <h3>Historic Market</h3>
-                    <p>0.8 km away • Food • Shopping</p>
+                    <h3>Reliable Energy Source</h3>
+                    <p>Provides consistent and dependable power regardless of weather conditions.</p>
                 </div>
             </div>
         </div>
     </section>
 
-    <section id="preferences" class="experiences">
-        <h2>Your Travel Style</h2>
+    <section id="applications" class="experiences">
+        <h2>Nuclear Energy Applications</h2>
         <div class="experience-slider">
             <div class="experience-card">
-                <img src="https://images.unsplash.com/photo-1526772662000-3f88f10405ff" alt="Nature">
-                <h3>Nature Lover</h3>
-                <p>Parks, trails, and scenic viewpoints</p>
+                <img src="https://img.freepik.com/free-photo/light-bulb-with-monuments-drawn-around_1232-886.jpg?t=st=1733335105~exp=1733338705~hmac=dde02c00af647ce23d88113361e3f2193c32e43d3302246fe39a8c91b0dd8fd0&w=740" alt="Electricity">
+                <h3>Electricity Generation</h3>
+                <p>Base-load power plants using nuclear reactors.</p>
             </div>
             <div class="experience-card">
-                <img src="https://images.unsplash.com/photo-1582234372722-50d7ccc30ebd" alt="Culture">
-                <h3>Culture Explorer</h3>
-                <p>Museums, galleries, and historical sites</p>
+                <img src="https://www.shutterstock.com/shutterstock/videos/1110165889/thumb/1.jpg?ip=x480" alt="Desalination">
+                <h3>Water Desalination</h3>
+                <p>Desalination plants powered by nuclear reactors.</p>
             </div>
             <div class="experience-card">
-                <img src="https://images.unsplash.com/photo-1414235077428-338989a2e8c0" alt="Food">
-                <h3>Food Enthusiast</h3>
-                <p>Local cuisine and food markets</p>
+                <img src="https://images.pexels.com/photos/7089020/pexels-photo-7089020.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="Medical">
+                <h3>Medical Applications</h3>
+                <p>Production of isotopes for cancer treatment and diagnostics.</p>
             </div>
         </div>
     </section>
@@ -114,14 +74,12 @@
     <footer>
         <div class="footer-content">
             <div class="footer-section">
-                <h3>About ExploreLikeALocal</h3>
-                <p>Discover local attractions based on your preferences and location.</p>
-            </div>
-            <div class="footer-section">
+                <h3>About Nuclear Energy</h3>
+                <p>Discover the power of atomic energy for a cleaner, sustainable future.</p>
             </div>
         </div>
         <div class="footer-bottom">
-            <p>&copy; 2024 ExploreLikeALocal. All rights reserved.</p>
+            <p>&copy; 2024 Nuclear Energy. All rights reserved.</p>
         </div>
     </footer>
 

@@ -3,57 +3,21 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>ExploreLikeALocal - Local Tourism Guide</title>
+    <title>Solar Energy - Harness the Power of the Sun</title>
     <link id="light theme" rel="stylesheet" href="landing.css">
     <link id="dark theme" rel="stylesheet" href="landingdark.css" disabled>
 </head>
 <body>
     <script src="theme.js"></script>
-    <!-- Auth Modal -->
-    <div id="authModal" class="modal">
-        <div class="modal-content">
-            <span class="close">&times;</span>
-            <!-- Login Form -->
-            <form id="loginForm" class="auth-form" action="/login" method="post">
-                <h2>Login</h2>
-                <label for="loginEmail">Email:</label>
-                <input type="email" id="loginEmail" name="email" placeholder="Email" required>
-                <label for="loginPassword">Password:</label>
-                <input type="password" id="loginPassword" name="password" placeholder="Password" required>
-                <button type="submit" class="btn-primary">Login</button>
-                <p>Don't have an account? <a href="#" id="showSignup">Sign up</a></p>
-            </form>
-            <!-- Signup Form -->
-            <form id="signupForm" class="auth-form hidden" action="/signup" method="post">
-                <h2>Sign Up</h2>
-                <label for="fullName">Full Name:</label>
-                <input type="text" id="fullName" name="name" placeholder="Full Name" required>
-                
-                <label for="signupEmail">Email:</label>
-                <input type="email" id="signupEmail" name="email" placeholder="Email" required>
-                
-                <label for="signupPassword">Password:</label>
-                <input type="password" id="signupPassword" name="password" placeholder="Password" required>
-                
-                <button type="submit" class="btn-primary">Sign Up</button>
-                
-                <p>Already have an account? <a href="#" id="showLogin">Login</a></p>
-            </form>
-        </div>
-    </div>
-
-    <!-- Main Content -->
     <header class="hero">
         <nav>
-            <div class="logo">ExploreLikeALocal</div>
+            <div class="logo">GlamGreen - Solar Energy</div>
             <div class="nav-links">
-                <a href="#nearby" class="btn-primary rainbow-border">Nearby</a>
-                <a href="#preferences" class="btn-primary rainbow-border">Preferences</a>
-                <a href="#saved" class="btn-primary rainbow-border">Saved Places</a>
-                <button id="authBtn" class="btn-primary rainbow-border">Login</button>
+                <a href="#benefits" class="btn-primary rainbow-border">Benefits</a>
+                <a href="#applications" class="btn-primary rainbow-border">Applications</a>
+                <a href="index.html" class="btn-primary rainbow-border">Home</a>
                 <a href="about.html" class="btn-primary rainbow-border">About Us</a>
             </div>
-            
         </nav>
         <section class="landing">
             <video autoplay muted loop class="bg-video">
@@ -61,52 +25,48 @@
                 Your browser does not support the video tag.
             </video>
         </section>
-        
     </header>
-
-    
-
-    <section id="nearby" class="destinations">
-        <h2>Spots Near You</h2>
+    <section id="benefits" class="destinations">
+        <h2>Why Choose Solar?</h2>
         <div class="destination-grid">
-            <div class="destination-card" style="background-image: url('https://images.unsplash.com/photo-1533587851505-d119e13fa0d7')">
+            <div class="destination-card" style="background-image: url('https://images.pexels.com/photos/87611/sun-fireball-solar-flare-sunlight-87611.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1')">
                 <div class="card-content">
-                    <h3>Mountain Trail</h3>
-                    <p>2.5 km away • Hiking • Nature</p>
+                    <h3>Renewable Energy</h3>
+                    <p>Solar energy is abundant, renewable, and sustainable.</p>
                 </div>
             </div>
-            <div class="destination-card" style="background-image: url('https://images.unsplash.com/photo-1514933651103-005eec06c04b')">
+            <div class="destination-card" style="background-image: url('https://img.freepik.com/free-photo/closeup-person-paying-calculating-bills_1262-14865.jpg?t=st=1733334413~exp=1733338013~hmac=1535e6f41a260de700a8e5d2decb37ea15e8e593879699d5eb9ba193dfb894ee&w=1060')">
                 <div class="card-content">
-                    <h3>Local Art Gallery</h3>
-                    <p>1.2 km away • Culture • Indoor</p>
+                    <h3>Reduces Energy Bills</h3>
+                    <p>Generate your own power and lower electricity costs.</p>
                 </div>
             </div>
-            <div class="destination-card" style="background-image: url('https://images.unsplash.com/photo-1555396273-367ea4eb4db5')">
+            <div class="destination-card" style="background-image: url('https://plus.unsplash.com/premium_photo-1682309652843-ed4eb60d473e?q=80&w=1824&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D')">
                 <div class="card-content">
-                    <h3>Historic Market</h3>
-                    <p>0.8 km away • Food • Shopping</p>
+                    <h3>Eco-Friendly</h3>
+                    <p>Significantly reduces greenhouse gas emissions.</p>
                 </div>
             </div>
         </div>
     </section>
 
-    <section id="preferences" class="experiences">
-        <h2>Your Travel Style</h2>
+    <section id="applications" class="experiences">
+        <h2>Solar Energy Applications</h2>
         <div class="experience-slider">
             <div class="experience-card">
-                <img src="https://images.unsplash.com/photo-1526772662000-3f88f10405ff" alt="Nature">
-                <h3>Nature Lover</h3>
-                <p>Parks, trails, and scenic viewpoints</p>
+                <img src="https://images.unsplash.com/photo-1509391366360-2e959784a276?q=80&w=2072&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="Solar Panels">
+                <h3>Electricity Generation</h3>
+                <p>Solar panels convert sunlight into clean electricity.</p>
             </div>
             <div class="experience-card">
-                <img src="https://images.unsplash.com/photo-1582234372722-50d7ccc30ebd" alt="Culture">
-                <h3>Culture Explorer</h3>
-                <p>Museums, galleries, and historical sites</p>
+                <img src="https://img.freepik.com/free-vector/colored-realistic-water-heater-boiler-composition-with-two-isolated-different-equipment-pipes_1284-33271.jpg?t=st=1733334592~exp=1733338192~hmac=887e80a26d858054b28dc58546e495001abd98f3ae46838a394c568ae91ee2ca&w=740" alt="Solar Water Heater">
+                <h3>Heating Systems</h3>
+                <p>Solar thermal systems for water and space heating.</p>
             </div>
             <div class="experience-card">
-                <img src="https://images.unsplash.com/photo-1414235077428-338989a2e8c0" alt="Food">
-                <h3>Food Enthusiast</h3>
-                <p>Local cuisine and food markets</p>
+                <img src="https://img.freepik.com/premium-photo/solar-panel-nature-electricity-energy-blue-cloud_34759-10.jpg?w=1060" alt="Solar Lighting">
+                <h3>Lighting</h3>
+                <p>Solar-powered lights for outdoor and indoor use.</p>
             </div>
         </div>
     </section>
@@ -114,14 +74,12 @@
     <footer>
         <div class="footer-content">
             <div class="footer-section">
-                <h3>About ExploreLikeALocal</h3>
-                <p>Discover local attractions based on your preferences and location.</p>
-            </div>
-            <div class="footer-section">
+                <h3>About Solar Energy</h3>
+                <p>Explore how the sun’s energy can power a sustainable future.</p>
             </div>
         </div>
         <div class="footer-bottom">
-            <p>&copy; 2024 ExploreLikeALocal. All rights reserved.</p>
+            <p>&copy; 2024 GlamGreen. All rights reserved.</p>
         </div>
     </footer>
 
