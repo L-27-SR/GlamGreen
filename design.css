@@ -58,7 +58,7 @@ header .menu{
     left: 0;
     bottom: 0;
     background-image: linear-gradient(
-        to top, #000 40%, transparent
+        to top, #000 10%, transparent
     );
 }
 .slider .list .item .content{
@@ -104,7 +104,7 @@ header .menu{
 }
 .arrows{
     position: absolute;
-    top: 30%;
+    top: 50%;
     right: 50px;
     z-index: 100;
 }
