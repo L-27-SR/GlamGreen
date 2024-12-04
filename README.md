@@ -1,6 +1,3 @@
-Here’s the updated README with the team members added:
-
----
 
 # GlamGreen - Renewable Energy Awareness Platform
 
