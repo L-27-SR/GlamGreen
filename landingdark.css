@@ -4,7 +4,7 @@
     --primary-color: #2a2a2a;
     --accent-color: #4a90e2;
     --text-light: #ffffff;
-    --text-dark: #333333;
+    --text-dark: #ffffff;
     --transition: all 0.3s ease;
 }
 
@@ -12,7 +12,7 @@
     --primary-color: #1c1c1c;
     --accent-color: #bb86fc;
     --text-light: #eaeaea;
-    --text-dark: #c0c0c0;
+    --text-dark: #ffffff;
     --background: #121212;
     --secondary-background: #1f1f1f;
     --transition: all 0.3s ease;
@@ -91,6 +91,7 @@ nav:hover {
 .logo {
     font-size: 2rem;
     font-weight: bold;
+    font-color : #ffff;
     background: linear-gradient(45deg, #555, #888);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
@@ -168,7 +169,7 @@ nav:hover {
 /* Destinations Section */
 .destinations {
     padding: 5rem 5%;
-    background: var(--secondary-background);
+    background: #2c2c2c;
 }
 
 .destination-grid {
@@ -199,7 +200,7 @@ nav:hover {
     right: 0;
     padding: 2rem;
     background: linear-gradient(transparent, rgba(0,0,0,0.8));
-    color: var(--text-light);
+    color: #ffffff;
 }
 
 /* Experiences Section */
@@ -294,7 +295,7 @@ nav:hover {
 
 /* Footer */
 footer {
-    background: var(--primary-color);
+    background: #2c2c2c;
     color: var(--text-light);
     padding: 3rem 5%;
 }
